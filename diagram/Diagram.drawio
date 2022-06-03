@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T17:07:43.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="kMa2QTn1vhk0tVKA64JJ" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T17:21:38.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="AYv0OE7AluHo4GK6RXzd" version="19.0.0" type="github">
   <diagram id="FU1WX6aOHGpJxhGzK5Eq" name="Page-1">
-    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1514" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qPmlnjPFyeQrY3B3dAM2-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="180" y="300" width="80" height="80" as="geometry" />
+        <mxCell id="oVW4uMAh0V91xdYQDb78-5" value="Player" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oVW4uMAh0V91xdYQDb78-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="460" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="oVW4uMAh0V91xdYQDb78-12" value="Bridge Game" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="339" y="170" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
