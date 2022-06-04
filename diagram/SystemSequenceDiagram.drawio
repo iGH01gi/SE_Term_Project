@@ -1,31 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T14:30:28.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="V_7vBM0_wdHS8cxbEwl7" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T15:56:53.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="LzQ_x_MKr9dD7AMKYg0z" version="19.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="SystemSequenceDiagram">
-    <mxGraphModel dx="789" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="952" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="map,piece" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="691.9999999999999" as="targetPoint" />
-            <mxPoint x="250" y="692" as="sourcePoint" />
+            <mxPoint x="240" y="370" as="targetPoint" />
+            <mxPoint x="600" y="370" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="dispatch" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="540.0000000000001" as="sourcePoint" />
-            <mxPoint x="250" y="540.0000000000001" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="callback" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="580" as="sourcePoint" />
-            <mxPoint x="55" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-10" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="656" as="targetPoint" />
-            <mxPoint x="55" y="656" as="sourcePoint" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="startNewGame" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry x="0.0056" y="10" relative="1" as="geometry">
+            <mxPoint x="239" y="260" as="sourcePoint" />
+            <mxPoint x="599" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B7aIQlRz-73fioRdxHlz-1" value=":Player" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
@@ -36,14 +25,52 @@
         </mxCell>
         <mxCell id="B7aIQlRz-73fioRdxHlz-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="520" as="sourcePoint" />
+            <mxPoint x="240" y="680" as="sourcePoint" />
             <mxPoint x="240" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B7aIQlRz-73fioRdxHlz-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="B7aIQlRz-73fioRdxHlz-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="520" as="sourcePoint" />
+            <mxPoint x="600" y="680" as="sourcePoint" />
             <mxPoint x="600" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7aIQlRz-73fioRdxHlz-8" value="chooseMap" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.0056" y="10" relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="600" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7aIQlRz-73fioRdxHlz-9" value="break" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="169" y="460" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B7aIQlRz-73fioRdxHlz-10" value="[choose exit game]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7aIQlRz-73fioRdxHlz-11" value="exit game message" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="514" as="targetPoint" />
+            <mxPoint x="600" y="514" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7aIQlRz-73fioRdxHlz-12" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="119" y="415" width="590" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="B7aIQlRz-73fioRdxHlz-13" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start; background-color: rgb(248, 249, 250);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(66, 66, 66); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, helvetica, &amp;quot;Apple SD Gothic Neo&amp;quot;, helvetica, &amp;quot;나눔바른고딕 옛한글&amp;quot;, &amp;quot;NanumBarunGothic YetHangul&amp;quot;, sans-serif; font-size: 13px; letter-spacing: -0.1px; text-align: start;&quot;&gt;more than two players on the map]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="411" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7aIQlRz-73fioRdxHlz-14" value="choose a move" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0056" y="10" relative="1" as="geometry">
+            <mxPoint x="241" y="580" as="sourcePoint" />
+            <mxPoint x="601" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7aIQlRz-73fioRdxHlz-15" value="updated map" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="239" y="620" as="targetPoint" />
+            <mxPoint x="599" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
