@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T18:08:55.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="z9CtjVWLiSpai56PPL2A" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T19:25:54.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="AuBFNUhjjCh9Fdrl15pg" version="19.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="choosePlayerNum(SequenceDiagram)">
-    <mxGraphModel dx="2029" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="09g5tCrzfpE1xMV-DXQo-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="570" height="150" as="geometry" />
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":BridgeGame" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="250" height="320" as="geometry" />
+          <mxGeometry x="120" y="80" width="250" height="430" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="chhosePlayerNum(int peopleNum)" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
           <mxGeometry x="0.1667" y="10" relative="1" as="geometry">
@@ -15,16 +18,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Player" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="190" width="100" height="300" as="geometry" />
+          <mxGeometry x="410" y="190" width="100" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="09g5tCrzfpE1xMV-DXQo-1" value="new" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.01;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="09g5tCrzfpE1xMV-DXQo-1" value="new Player(i+1)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.01;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="260" as="sourcePoint" />
             <mxPoint x="350" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="09g5tCrzfpE1xMV-DXQo-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="180" y="160" width="380" height="110" as="geometry" />
+        <mxCell id="09g5tCrzfpE1xMV-DXQo-4" value="[peopleNum만큼 반복]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="09g5tCrzfpE1xMV-DXQo-5" value="cardInventory:Card" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="233" width="120" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="09g5tCrzfpE1xMV-DXQo-6" value="new Card()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=-0.026;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.493;exitY=0.194;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="09g5tCrzfpE1xMV-DXQo-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459.81034482758605" y="352" as="sourcePoint" />
+            <mxPoint x="649.5" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09g5tCrzfpE1xMV-DXQo-8" value="i+1은 Player클래스의 playerIndex값으로 들어감" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="330" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
