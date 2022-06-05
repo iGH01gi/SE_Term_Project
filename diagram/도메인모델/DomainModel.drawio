@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T19:27:15.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="SY86kOKBJCfcaN9klk8i" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T17:31:59.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="qXVAXaqSogG9Q540xtQu" version="19.0.0" type="github">
   <diagram id="ROPJrq2IIXaWx1oVJtoM" name="DomainModel">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="GZTJ7-JCTW0fnLTZL_83-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Dice&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;value&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="357" y="140" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GZTJ7-JCTW0fnLTZL_83-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Card&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;hammer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;saw&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;philipsDriver&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+        <mxCell id="GZTJ7-JCTW0fnLTZL_83-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Card&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;hammer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;saw&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;philipsDriver&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;bridge&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="73" y="579" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XsCl1-yESDeX2pDNbbkY-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Bridge Game&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
