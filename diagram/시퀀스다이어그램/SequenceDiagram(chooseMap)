@@ -1,1 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T12:41:46.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" version="19.0.0" etag="TtFWwZva8Ai4mOq-BGWD" type="github"><diagram id="SxCLd1y1C3bE54lezWL-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-08T12:51:26.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="Rle1co_fS5DzoB9os7FJ" version="19.0.0" type="github">
+  <diagram id="SxCLd1y1C3bE54lezWL-" name="chooseMap(SequenceDiagram)">
+    <mxGraphModel dx="1247" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k2bKH2O4KwEItPiCVvrH-1" value="chooseMap(mapName)" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.1209" y="10" relative="1" as="geometry">
+            <mxPoint x="170" y="239" as="sourcePoint" />
+            <mxPoint x="306.5" y="239" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2bKH2O4KwEItPiCVvrH-2" value=":BridgeGame" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="130" width="130" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bKH2O4KwEItPiCVvrH-5" value="new Map(mapName)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="k2bKH2O4KwEItPiCVvrH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="67" y="130" as="sourcePoint" />
+            <mxPoint x="197" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2bKH2O4KwEItPiCVvrH-4" value="map:Map" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="438" y="240" width="100" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
