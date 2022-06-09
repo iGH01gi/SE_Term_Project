@@ -241,9 +241,9 @@ public class GameFrame extends JFrame {
                     lbl.setHorizontalAlignment(JLabel.CENTER);
                     innerPanel.add(lbl);
                 } catch(Exception e) {
-                     //이 메소드는 다차원 배열의 각 행의
-                     //길이가 뒤죽박죽일 때 예외가 나는 점을 이용해
-                     //예외가 났다면 빈 공간으로 간주하고 빈칸을 그리는 부분
+                    //이 메소드는 다차원 배열의 각 행의
+                    //길이가 뒤죽박죽일 때 예외가 나는 점을 이용해
+                    //예외가 났다면 빈 공간으로 간주하고 빈칸을 그리는 부분
                     JLabel lbl=new JLabel(" ");
                     lbl.setOpaque(true);
                     lbl.setBackground(Color.WHITE);
@@ -415,11 +415,11 @@ public class GameFrame extends JFrame {
 
     void getCard(Card cardInventory,Piece piece){//말이 다 움직인 후 최종 위치의 카드를 얻음(움직이지 않을시에는 얻지 않음). 다리카드의 경우 움직임 처리할때 같이 처리(스택 이용)
         if(squares[piece.getRow()][piece.getCol()].type.equals("H"))
-                cardInventory.addHammer();
+            cardInventory.addHammer();
         else if (squares[piece.getRow()][piece.getCol()].type.equals("S"))
-                cardInventory.addSaw();
+            cardInventory.addSaw();
         else if(squares[piece.getRow()][piece.getCol()].type.equals("P"))
-                cardInventory.addPhilipsDriver();
+            cardInventory.addPhilipsDriver();
     }
 
 
@@ -519,13 +519,18 @@ public class GameFrame extends JFrame {
                 {
                     playerList.get(turn-1).cardInventory.useBridgeCard();
                     System.out.println(turn+"번 플레이어의 카드갯수(망치,톱,드라이버,다리 순서)"+playerList.get(turn-1).cardInventory.getHammer()+" "+playerList.get(turn-1).cardInventory.getSaw()+" "+playerList.get(turn-1).cardInventory.getPhilipsDriver()+" "+playerList.get(turn-1).cardInventory.getBridge());
-                    turn++;
-                    if(turn>playerList.size()){//인원수보다 turn이 커지면 1로 돌아감
-                        turn=1;
-                    }
+                    nextTurn();
                     rolldice=false;
                     diceValueLabel.setText("주사위를 굴리세요");
                     turnLabel.setText(turn+" PLAYER TURN");
+                    if(turn==1)
+                        turnLabel.setForeground(Color.pink);
+                    else if(turn==2)
+                        turnLabel.setForeground(Color.green);
+                    else if(turn==3)
+                        turnLabel.setForeground(Color.blue);
+                    else if(turn==4)
+                        turnLabel.setForeground(Color.orange);
                     inputField.setText("");
                 }
                 else{
@@ -546,3 +551,4 @@ public class GameFrame extends JFrame {
 
 
 }
+
